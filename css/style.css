@@ -1,0 +1,60 @@
+body{
+    position:
+}
+h2{
+    text-align:center;
+}
+#navbar{
+    position:absolute;
+    z-index:1;
+
+}
+#main_page{
+    
+}
+.video{
+    padding-bottom: 50px;
+    padding-top:0px;
+    position: relative;
+    z-index:0;
+    position:relative;
+
+}
+#about{
+    
+    padding-top:0px;
+    padding-bottom:0px;
+    text-align: center;
+    padding: 50px 50px ;
+    height: 100vh;
+}
+/* .about{
+    height:100vh;
+} */
+#section{
+    padding:5%;
+    height:100vh;
+    
+}
+
+.events{
+    padding:10px 10px;
+}
+
+.timer{
+    position:relative;;
+    text-align:center;
+    z-index:2;
+    
+}
+.mobile_video{
+    display:none;
+}
+@media (max-width: 1028px){
+    .desktop_video{
+        display:none;
+    }
+    .mobile_video{
+        display:block;
+    }
+}
